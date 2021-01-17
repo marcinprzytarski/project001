@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    width: 95%;
+    border: 1px solid grey;
+    margin: 0 auto;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav > div {
+    display: inline-block;
+    flex-basis: 20%;
+}
